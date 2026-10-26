@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "growl-tools"
+version = "0.1.0"
+description = "Tools for the GROWL catalog of compact-binary population simulations"
+readme = "README.md"
+license = "BSD-3-Clause"
+requires-python = ">=3.10"
+authors = [{ name = "Floor Broekgaarden", email = "fbroekgaarden@ucsd.edu" }]
+dependencies = ["numpy", "h5py", "astropy", "scipy"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/growl-lab/growl-tools"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/growl_tools"]

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use growl-tools, please cite it as below."
+title: "growl-tools"
+authors:
+  - family-names: Broekgaarden
+    given-names: Floor S.
+    affiliation: UC San Diego
+repository-code: "https://github.com/growl-lab/growl-tools"
+license: BSD-3-Clause
+version: 0.1.0
